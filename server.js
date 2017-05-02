@@ -5,7 +5,7 @@ var mongoose = require("mongoose");
 var path = require("path");
 
 
-var cheerio = require('cheerio');
+
 // Set mongoose to leverage built in JavaScript ES6 Promises
 mongoose.Promise = Promise;
 
