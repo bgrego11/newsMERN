@@ -11,10 +11,10 @@ var Header = React.createClass({
     <a className="navbar-brand" href="#">News App</a>
     <ul className="nav navbar-nav">
         <li className="active">
-            <a href="#">Home</a>
+            <a href="#/search">Search</a>
         </li>
         <li>
-            <a href="#">Link</a>
+            <a href="#/saved">Saved Articles</a>
         </li>
     </ul>
 </nav>

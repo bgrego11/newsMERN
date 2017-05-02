@@ -18,15 +18,15 @@ class Main extends React.Component {
 
     return (
 // Here we deploy the header component as though it were any other HTML element
-  <div><Header />
-  <div>
-  <div className="container col-sm-10 col-md-2 col-lg-2">
-    <Login /> 
-    <Demo />
-  </div>
-  <Footer />
-  </div>
-  </div>
+<div>
+  <Header />
+  <div className="container col-sm-10 col-md-8 col-lg-8">
+
+          {/* This code will dump the correct Child Component */}
+          {this.props.children}
+
+        </div>
+        </div>
 )}
 }
 

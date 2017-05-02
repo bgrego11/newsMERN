@@ -18,17 +18,16 @@ var hashHistory = router.hashHistory;
 // Include the IndexRoute (catch-all route)
 var IndexRoute = router.IndexRoute;
 
-import Main from "../components/main";
-import Promo from "../components/Promo";
 
+import Main from "../components/Main";
+import Search from "../components/Search";
 
 module.exports = (
- <Router history={hashHistory}>
+  <Router history={hashHistory}>
 
     <Route path="/" component={Main}>
-
-      {/* If user selects Child1 then show the appropriate component*/}
-      
+      <Route path="search" component={Search} >
+      </Route>
     </Route>
 </Router>
 );
