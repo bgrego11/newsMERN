@@ -1,12 +1,16 @@
 {
-  "name": "fxapp",
-  "version": "1.0.0",
-  "description": "application to allow simple fx conversion and simulated forex trading",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "newsapp",
+  "engines": {
+    "node": "6.9.5"
   },
-  "author": "Benjamin Gregory, Steven Snyder",
+  "version": "1.0.0",
+  "description": "application for news in react",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Benjamin Gregory",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.16.1",
